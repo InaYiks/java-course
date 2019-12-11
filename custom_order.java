@@ -12,7 +12,7 @@ public class custom_order {
     // TEST CODE
     
     // STEP 2 CREATE A SCANNER OBEJCT, DECLARE VARAIBLES, & PRINT STATEMENTS
-    Scanner keyboard = new Scanner (System.in);
+    Scanner keyboard = new Scanner(System.in);
     
     String firstName; //User's first name
     String itemOrder; //Item ordered
@@ -28,7 +28,7 @@ public class custom_order {
 	 
     // Introduce shop and prompt user to input first name
 
-    System.out.println("Welcome to Kiyani's Cake and Cupcake Shop!");
+    System.out.println("Welcome to InaYiks's Cake and Cupcake Shop!");
     System.out.println("We make custom cakes with our secret cake batter!");
       
 
@@ -42,15 +42,16 @@ public class custom_order {
     firstName = keyboard.nextLine();
 
     System.out.println(firstName + ", please see our MENU below: ");
-    System.out.print("\n"); //skips a line      
+    System.out.print("\n"); //skips a line  
+
     // TEST CODE     
     
     // STEP 4 DISPLAY MENU
 
     System.out.println("_________________________________________________");
-    System.out.println("         MENU        QUANTITY      BASE COST");
+    System.out.println("         MENU        QUANTITY      BASE COST  ");
     System.out.println("_________________________________________________");
-    System.out.println("         CAKE                      1               $15        ");
+    System.out.println("         CAKE                      1               $15      ");
     System.out.println("   Set of Cupcakes       6             $15         ");
     System.out.println("_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _");
     System.out.println("Frostings  (vanilla, chocolate, strawberry, coco)");
@@ -83,8 +84,8 @@ public class custom_order {
       
     // STEP 7 PROMPT USER TO CHOOSE FILLING
 
-      System.out.println("What type of TOPPINGS would you like? ");
-      System.out.println("Sprinkles, Cinnamon, Cocoa, Nuts");
+      System.out.println("What type of FILLING would you like? ");
+      System.out.println("Mocha, Mint, Lemon, Caramel or Raspberry");
       toppings = keyboard.nextLine();
 	  
 	  
@@ -93,7 +94,8 @@ public class custom_order {
       
     // STEP 8 PROMPT USER TO CHOOSE TOPPINGS
 
-
+      System.out.println("What kind of TOPPINGS would you like?")
+      System.out.println("Sprinkles, Cinnamon, Cocoa, Nuts");
 	
       
       
