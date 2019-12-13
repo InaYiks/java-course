@@ -4,6 +4,12 @@
             "type": "java",
             "name": "CodeLens (Launch) - custom_order",
             "request": "launch",
+            "mainClass": "custom_order"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - custom_order",
+            "request": "launch",
             "mainClass": "custom_order",
             "projectName": "java-course_8482f86e"
         }
