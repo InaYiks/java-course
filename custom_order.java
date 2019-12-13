@@ -103,6 +103,9 @@ public class custom_order {
       
     // STEP 9 DISPLAY ORDER CONFIRMATION
 
+      System.out.println();
+      System.out.println(firstname + " , your order is as follows: ");
+      System.out.println("_________________________________________");
 
       
 	  
